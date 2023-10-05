@@ -2,3 +2,7 @@ html, body
 {
     margin: 0 auto;
 }
+main
+{
+    display: grid;
+}
