@@ -4,8 +4,10 @@ html, body
 }
 main
 {
+    margin: 10px;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
+    gap: 10px;
 }
 section
 {
