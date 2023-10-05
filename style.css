@@ -13,13 +13,17 @@ section
 {
     border: 1px dashed black;
 }
+h1,h2
+{
+    text-align: center;
+}
 #general
 {
     grid-column: 1/span 2;
     display: grid;
     grid-template-columns: 2fr 5fr 4fr;
 }
-h1,h2
+#google-stuff
 {
-    text-align: center;
+    display: grid;
 }
