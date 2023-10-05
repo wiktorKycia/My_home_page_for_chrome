@@ -16,4 +16,6 @@ section
 #general
 {
     grid-column: 1/span 2;
+    display: grid;
+    grid-template-columns: 2fr 5fr 4fr;
 }
