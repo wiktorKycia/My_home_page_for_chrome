@@ -13,3 +13,7 @@ section
 {
     border: 1px dashed black;
 }
+#general
+{
+    grid-column: 1/span 2;
+}
