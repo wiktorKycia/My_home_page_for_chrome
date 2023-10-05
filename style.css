@@ -27,3 +27,9 @@ h1,h2
 {
     display: grid;
 }
+#google-stuff > a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
