@@ -28,3 +28,7 @@ h1,h2
     display: grid;
     grid-template-columns: 2fr 5fr 4fr;
 }
+#general, #important
+{
+    height: 100px;
+}
