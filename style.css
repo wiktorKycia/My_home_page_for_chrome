@@ -4,7 +4,7 @@ html, body
 }
 main
 {
-    margin: 10px;
+    margin: 10px 100px;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     gap: 10px;
@@ -13,6 +13,11 @@ section
 {
     border: 1px dashed black;
 }
+section:nth-of-type(n+3)
+{
+    min-height: 300px;
+}
+
 h1,h2
 {
     text-align: center;
