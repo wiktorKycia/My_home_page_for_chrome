@@ -1,0 +1,43 @@
+html, body
+{
+    margin: 0 auto;
+}
+main
+{
+    margin: 10px 100px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    gap: 10px;
+}
+section
+{
+    border: 1px dashed black;
+}
+section:nth-of-type(n+3)
+{
+    min-height: 300px;
+}
+
+h1,h2
+{
+    text-align: center;
+}
+#general
+{
+    grid-column: 1/span 2;
+    display: grid;
+    grid-template-columns: 2fr 5fr 4fr;
+}
+#google-stuff
+{
+    display: grid;
+}
+#google-stuff > a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    width: 100px;
+    margin: auto;
+}
