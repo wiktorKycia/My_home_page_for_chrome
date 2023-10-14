@@ -28,16 +28,7 @@ h1,h2
     display: grid;
     grid-template-columns: 2fr 5fr 4fr;
 }
-#google-stuff
+#general, #important
 {
-    display: grid;
-}
-#google-stuff > a
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: min-content;
-    width: 100px;
-    margin: auto;
+    height: 100px;
 }

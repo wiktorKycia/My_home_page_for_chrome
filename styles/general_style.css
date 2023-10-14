@@ -1,0 +1,13 @@
+#google-stuff
+{
+    display: grid;
+}
+#google-stuff > a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    width: 100px;
+    margin: auto;
+}
