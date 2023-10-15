@@ -3,3 +3,10 @@
     display: grid;
     grid-template-rows: auto auto;
 }
+#important > article
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
