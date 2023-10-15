@@ -3,7 +3,6 @@
     color: whitesmoke;
     background-color: rgb(25, 75, 50);
 }
-
 html, body
 {
     margin: 0 auto;
@@ -12,6 +11,7 @@ body
 {
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
+
 main
 {
     margin: 10px 100px;
@@ -19,20 +19,27 @@ main
     grid-template-columns: 3fr 2fr 3fr;
     gap: 10px;
 }
+
 section
 {
-    border: 1px dashed black;
     opacity: 0.8;
+    transition: all 350ms;
 }
 section:nth-of-type(n+3)
 {
     min-height: 300px;
+}
+section:hover
+{
+    opacity: 1.0;
+    box-shadow: 0 0 5px 0px whitesmoke;
 }
 
 h1,h2
 {
     text-align: center;
 }
+
 #general
 {
     grid-column: 1/span 2;
