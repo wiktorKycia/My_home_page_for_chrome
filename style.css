@@ -1,6 +1,16 @@
+*
+{
+    color: whitesmoke;
+    background-color: rgb(25, 75, 50);
+}
+
 html, body
 {
     margin: 0 auto;
+}
+body
+{
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 main
 {
@@ -12,6 +22,7 @@ main
 section
 {
     border: 1px dashed black;
+    opacity: 0.8;
 }
 section:nth-of-type(n+3)
 {
