@@ -7,6 +7,14 @@
 #google > h2
 {
     grid-column: 1 / span 6;
+    width: min-content;
+    height: min-content;
+    margin: auto auto;
+}
+#google > a
+{
+    margin: auto auto;
+    padding: 15px;
 }
 #google > a:nth-of-type(3n+1)
 {
