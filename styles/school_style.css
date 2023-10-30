@@ -3,3 +3,7 @@
     display: flex;
     flex-flow: nowrap column;
 }
+#school a
+{
+    padding: 3px;
+}
