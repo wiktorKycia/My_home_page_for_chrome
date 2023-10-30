@@ -6,7 +6,13 @@
 #school a
 {
     padding: 3px;
+    transition: all 350ms ease;
 }
+#school a:hover
+{
+    font-size: 1.2em;
+}
+
 #school > h2
 {
     width: min-content;
