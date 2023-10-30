@@ -13,3 +13,7 @@
     height: min-content;
     margin: 10px auto;
 }
+#facebook-zsk > h5
+{
+    text-align: center;
+}
